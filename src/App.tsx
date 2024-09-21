@@ -18,7 +18,7 @@ export default function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [state, setState] = useState("app");
-  const [isVisible, setIsVisible] = useState(true);
+  const isVisible = true;
 
   function onSubmit() {
     setState("warning");
